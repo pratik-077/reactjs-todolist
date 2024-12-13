@@ -10,10 +10,10 @@ function App()
   const[todos, setTodos]=useState([])
   const [todoValue, setTodoValue] = useState('');
 
-  /*function persistData(newList)
+  function persistData(newList)
   {
     localStorage.setItem('todos',JSON.stringify({todos:newList}))
-  }  */
+  }  
 
   function handleAddTodos(newTodo){
     if(newTodo.length===0)
