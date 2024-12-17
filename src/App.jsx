@@ -42,7 +42,7 @@ function App()
     handleDeleteTodo(index)
   }
 
-  useEffect(()=>{
+  /* useEffect(()=>{
     if(!localStorage){
       return
     }
@@ -54,7 +54,7 @@ function App()
       localTodos=JSON.parse(localTodos).todos
       setTodos(localTodos)
     
-  },[])
+  },[])   */
 
   return(
     <>
